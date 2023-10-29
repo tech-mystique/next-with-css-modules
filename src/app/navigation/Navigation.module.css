@@ -1,0 +1,24 @@
+.navList {
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.navLink, .navLink:visited, .activeLink, .activeLink:visited {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    transition: color ease 250ms;
+}
+
+.navLink:hover, .navLink:visited:hover {
+    color: rgba(29, 55, 72, 0.46)
+}
+
+.activeLink, .activeLink:visited {
+    color: rgba(29, 55, 72, 0.46);
+    text-decoration: underline;
+}
